@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>Cafe Fenjoon</title>
+
+  <!-- فونت وزیر -->
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font/dist/font-face.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Vazir, sans-serif;
+      background: linear-gradient(135deg, #2b002b, #ff4d88);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 30px 10px;
+    }
+
+    header h1 {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+
+    header img {
+      width: 100px;
+      margin-top: 10px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .menu-section {
+      margin: 40px auto;
+      max-width: 600px;
+      padding: 20px;
+      background: rgba(0,0,0,0.5);
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    .menu-section h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .menu-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .menu-section li {
+      padding: 8px 0;
+      border-bottom: 1px dashed rgba(255,255,255,0.3);
+      font-size: 18px;
+    }
+
+    footer {
+      background: rgba(0,0,0,0.8);
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    a {
+      color: #ff99cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cafe Fenjoon</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/415/415733.png" alt="coffee">
+<!-- بخش قهوه -->
+  <section class="menu-section">
+    <h2>☕ قهوه</h2>
+    <ul>
+      <li>اسپرسو تک — 45000</li>
+      <li>اسپرسو دبل — 50000</li>
+      <li>اسپرسو ماكياتو — 60000</li>
+      <li>لته — 80000</li>
+      <li>لته فندوق — 85000</li>
+      <li>سينامون لته (دارچینی) — 95000</li>
+      <li>مانى ماكياتو (عسلى) — 95000</li>
+      <li>كاپوچينو — 70000</li>
+      <li>موکا — 85000</li>
+      <li>آمريكانو — 55000</li>
+      <li>قهوه ترک — 50000</li>
+      <li>يونانى — 50000</li>
+      <li>لانگ بلک — 55000</li>
+      <li>فلت وايت — 60000</li>
+      <li>كارامل ماكياتو — 85000</li>
+    </ul>
+  </section>
+
+  <!-- بخش شیک و بستنی -->
+  <section class="menu-section">
+    <h2>🥤 شیک و بستنی</h2>
+    <ul>
+      <li>شيک نوته — 120000</li>
+      <li>شيک وانیل — 110000</li>
+      <li>شيک شكلات — 110000</li>
+      <li>پینک شيک — 110000</li>
+      <li>شيک لوتوس — 120000</li>
+      <li>شيک پیناته — 120000</li>
+      <li>دريم چاكلت شیک — 120000</li>
+      <li>شيک اسپرسو — 120000</li>
+    </ul>
+  </section>
+
+  <!-- بخش نوشیدنی سرد -->
+  <section class="menu-section">
+    <h2>🧊 نوشیدنی سرد</h2>
+    <ul>
+      <li>بولفراک — 120000</li>
+      <li>چیل اوت — 120000</li>
+      <li>مارگاریتا — 120000</li>
+      <li>پنتاگون — 110000</li>
+      <li>موهیتو — 130000</li>
+      <li>رد موميتو — 150000</li>
+      <li>ليموناد — 120000</li>
+      <li>چرى بری — 140000</li>
+    </ul>
+  </section><!-- بخش دمنوش و چای -->
+  <section class="menu-section">
+    <h2>🍵 دمنوش و چای</h2>
+    <ul>
+      <li>چاى سياه — 40000</li>
+      <li>چاى زعفران — 55000</li>
+      <li>چاى سبز — 40000</li>
+      <li>چاى ترش — 55000</li>
+      <li>چاى كارامل — 60000</li>
+      <li>دمنوش آرامش — 60000</li>
+      <li>دمنوش شازده خانم — 95000</li>
+      <li>دمنوش بى بى گل — 95000</li>
+    </ul>
+  </section>
+
+  <!-- بخش نوشیدنی گرم -->
+  <section class="menu-section">
+    <h2>🍫 نوشیدنی گرم</h2>
+    <ul>
+      <li>هات چاكلت — 70000</li>
+      <li>هات چاكلت فندوق — 75000</li>
+      <li>نوتک چاكلت — 70000</li>
+      <li>وايت چاكلت — 70000</li>
+      <li>ماسالا — 75000</li>
+      <li>چاى كرک — 80000</li>
+      <li>پینک چاكلت — 80000</li>
+    </ul>
+  </section>
+
+  <!-- بخش آیس -->
+  <section class="menu-section">
+    <h2>❄️ آیس</h2>
+    <ul>
+      <li>آيس آمريكانو — 55000</li>
+      <li>آيس لته — 80000</li>
+      <li>آيس كارامل ماكياتو — 85000</li>
+      <li>آيس موکا — 85000</li>
+      <li>آيس فندوق — 85000</li>
+      <li>آفوگاتو — 70000</li>
+      <li>آيس چاكلت فندوق — 80000</li>
+      <li>آيس وايت چاكلت — 80000</li>
+      <li>آيس ماسالا — 85000</li>
+      <li>آيس كرک — 85000</li>
+    </ul>
+  </section>
